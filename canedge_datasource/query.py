@@ -42,6 +42,7 @@ def _json_target_decode(dct):
 def _json_decode_target(target):
     # Decode target (the query entered by the user formatted as json)
     try:
+        logger.info(f"TARGET: {target}")
         return json.loads(target, object_hook=_json_target_decode)
     except KeyError as e:
         # Handle invalid enum mapping errors (key not exist)
