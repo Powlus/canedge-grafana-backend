@@ -18,7 +18,6 @@ The [CANedge InfluxDB Writer](https://github.com/CSS-Electronics/canedge-influxd
 
 For details incl. 'pros & cons', see our [intro to telematics dashboards](https://www.csselectronics.com/pages/telematics-dashboard-open-source).
 
------
 
 ## Features
 
@@ -133,7 +132,7 @@ Note: To activate your virtual environment use `env\Scripts\activate` (Linux: `s
 - Verify that your venv is active and start the app with below syntax
 
 ```
-python canedge_datasource_cli.py https://s3.eu-central-1.amazonaws.com --port 8080 --limit 100 --s3_ak AKIA3Y2BG53LNWKO2DIY --s3_sk miz7zoBk7uxLmfTwxOhwq0i2HrFqqbkzXL6wgL4z --s3_bucket canedge-datasource
+python canedge_datasource_cli.py https://s3.eu-central-1.amazonaws.com --port 8080 --limit 100 --s3_ak KEY --s3_sk SECRET --s3_bucket canedge-datasource
 ```
 
 - AWS S3 endpoint example: `https://s3.eu-central-1.amazonaws.com`
