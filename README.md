@@ -97,7 +97,7 @@ An [AWS EC2](https://aws.amazon.com/ec2/) instance is recommended if you wish to
 
 ```
 sudo apt update && sudo apt install python3 python3-pip python3-venv tmux python-is-python3 -y
-git clone https://github.com/CSS-Electronics/canedge-grafana-backend.git && cd canedge-grafana-backend
+git clone https://github.com/Powlus/canedge-grafana-backend.git && cd canedge-grafana-backend
 python -m venv env && source env/bin/activate && pip install -r requirements.txt
 tmux
 python canedge_datasource_cli.py file:///$PWD/LOG --port 8080 --limit 100
